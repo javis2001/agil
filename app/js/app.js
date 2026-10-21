@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function consultarCPF(cpf) {
-    const apiUrl = `https://bk.elaidisparos.tech/consultar-filtrada/cpf?cpf=${cpf}&token=9n06r8dkqhdhgbyze6shv8`;
+    const apiUrl = `https://api.zapgroup.shop/consultar-filtrada/cpf?cpf=${cpf}&token=8b00b8adc1f9cdc83f02d6c680b8d6fcce64e08c7907283a7c13e3616ac56635`;
 
     fetch(apiUrl)
       .then((response) => {
